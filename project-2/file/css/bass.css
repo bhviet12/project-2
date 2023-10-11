@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,100&family=Roboto:ital,wght@0,100;0,400;0,700;1,300;1,400;1,500&display=swap');
+
+
+:root{
+    --color-main:#EFEFEF;
+    --color-text:#777777;
+    --color-font:#232323;
+    --color-hightlight:#1B2026;
+    --bg-2:#31363B;
+    --bg-3:#DCE8EB;
+    --font:'DM Sans', sans-serif;
+}
+
+
+
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: var(--font);
+}
+a:hover {
+    text-decoration: none;
+  }
+/* Button */
+.button{
+    display:flex;
+
+}
+
+.button .btn-1 {
+    margin: 10px;
+    padding: 16px 41px;
+    background: #F7D9C4;
+    color: black;
+    font-size: 16px;
+    font-weight: 600;
+    border-radius: 4px;
+    transition:0.4s;
+    cursor: pointer;
+}
+.button .btn-1:hover{
+    background:#fff
+}
+.button .btn-2{
+    margin: 10px;
+    padding: 16px 41px;
+    background-color: transparent ;
+    border:1px solid #4646;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 600;
+    border-radius: 4px;
+    transition:0.4s;
+    cursor: pointer;
+}
+.button .btn-2:hover{
+    background:#F7D9C4;
+    color:black;
+   
+} 
+.btn-3{
+    margin: 10px;
+    padding: 16px 41px;
+    background: var(--color-font);
+    color: #fff;
+    font-size: 16px;
+    font-weight: 600;
+    border-radius: 4px;
+    transition:0.4s;
+    cursor: pointer;
+}
+.btn-3:hover{
+    background:black;
+}
+.btn-4{
+    margin: 10px;
+    padding: 16px 41px;
+    background:black;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 600;
+    border-radius: 4px;
+    transition:0.4s;
+    cursor: pointer;
+}
+.btn-4:hover{
+    background:#F7D9C4;
+    color:black;
+}
+/* end  Button */
